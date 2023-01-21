@@ -1,7 +1,11 @@
 <template>
   <div class="main">
     <div>
-      <h3>Books will show after logged in</h3>
+      <h3>
+        Books will show after logged in. You can
+        <span style="margin-left: 10px"><RouterLink to="/register">Register</RouterLink></span> or
+        <span style="margin-left: 10px"><RouterLink to="/login">Login</RouterLink></span> here.
+      </h3>
     </div>
 
     <table>
