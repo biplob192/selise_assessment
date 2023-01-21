@@ -2,7 +2,6 @@
   <div>
     <nav>
       <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/books">Books</RouterLink>
       <RouterLink to="/register">Register</RouterLink>
       <RouterLink to="/login">Login</RouterLink>
       <button @click="logout()">Logout</button>
